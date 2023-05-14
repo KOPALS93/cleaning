@@ -4,6 +4,7 @@ import Joblist from "../../components/joblist/Joblist";
 import Navbar from "../../components/navbar/Navbar";
 import FeaturedJobs from "../../components/featuredJobs/FeaturedJobs";
 import MailList from "../../components/mailList/MailList";
+import 'bootstrap/dist/css/bootstrap.css';
 import Footer from "../../components/footer/Footer";
 import "./home.css";
 
@@ -14,7 +15,9 @@ const Home = () => {
             <Header />
             <div className="homeContainer">
                 <Featured/>
-                <h1 className="homeTitle">szukajzausluga</h1>
+                <h1 className="homeTitle ">szukajzausluga</h1>
+                <button className="btn btn-primary">Click Me</button>
+
                 <Joblist/>
                 <h1 className="homeTitle">szukajzausluga2</h1>
                 <FeaturedJobs/>
